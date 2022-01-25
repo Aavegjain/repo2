@@ -1,0 +1,240 @@
+body{
+    background-color:rebeccapurple;
+    margin:0;
+    
+}
+
+.homebanner{
+    position:relative;
+    width: 100%;
+    height:500px;
+    background-image:url("covidimg.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 1000px;
+    background-color:rebeccapurple;
+    padding:0;
+    font-size:1em;
+    margin:0;
+    
+    
+}
+
+h1{
+    position:absolute;
+    bottom:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:5em;
+    color:salmon;
+}
+
+
+
+
+a.a{
+    font-family:'Open Sans', sans-serif;
+    
+    font-size:2em;
+    color:white;
+    text-decoration: none;
+    margin:1%;
+    vertical-align:center;
+}
+
+
+.homebannersub{
+    color:rgb(161, 3, 252);
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-size:3.8em;
+}
+
+h2{
+    text-align:center;
+    font-size:3.8em;
+    color:skyblue;
+    font-family:'Mochiy Pop P One', sans-serif;
+}
+
+div.wearmask,div.washhands{
+    background-color:peru;
+    border-radius:1em;
+    border-width:1em;
+    border-style:solid;
+    border-color:pink;
+    position:relative;
+    margin-bottom:2em;
+}
+
+.pwearmask{
+       display:inline-block;
+       vertical-align:middle;  
+       margin-left:40%;
+      
+       
+       
+       font-size:3em;
+       font-family:'Mochiy Pop P One', sans-serif;
+       color:palegreen;
+}
+
+div.wearmask img{
+    
+    
+    display:inline-block;
+    vertical-align:middle;
+    width:25%;
+    height:25%;
+}
+
+div.washhands img{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:20%;
+    
+    margin-right:0%;
+    width:25%;
+    height:25%;
+
+}
+
+div.washhands p{
+    display:inline-block;
+    vertical-align:middle;  
+    width:50%;
+    font-size:3em;
+    font-family:'Mochiy Pop P One', sans-serif;
+    color:palegreen;
+    
+    
+    
+}
+
+
+.faqs{
+    
+    background-color:white;
+    margin:0em;
+    padding:1em;
+}
+
+
+
+ul{
+    border:0.3em solid purple;
+    padding:1em;
+}
+      
+.li1{
+    border-color:purple;
+    border-width:0.3em;
+    border-style:solid;
+    font-family: 'Sedgwick Ave', cursive;
+    color:sienna;
+    font-size:1em;
+    margin:1em;
+    padding:1em;
+}
+
+.h3{
+   text-align:center;
+    }
+
+table{
+    table-layout:fixed;
+    border-collapse:collapse;
+    border:0.3em solid teal;
+    font-family:'Mochiy Pop P One', sans-serif;
+    margin:10%;
+    text-align:center; 
+    
+    }
+
+td{
+    border:2px solid tan;
+    letter-spacing:0.3em;
+    padding:1em;
+}
+
+tbody tr:nth-child(odd){
+    background-color:rgb(245, 161, 66);
+}
+
+tbody tr:nth-child(even){
+    background-color:rgb(245, 99, 66);
+}
+
+thead{
+    background-color:rgb(66, 203, 245);
+}
+
+th{
+    border:2px solid red;
+    color:rebeccapurple;
+    font-size:2em;
+    letter-spacing:0.3em;
+    padding:1em;
+}
+
+
+th:nth-child(1){
+    width:20%;
+}
+
+th:nth-child(2){
+    width:25%;
+}
+
+th:nth-child(3){
+    width:30%;
+}
+
+
+#youtube{
+    background-color:skyblue;
+    margin:0;
+}
+
+#youtube h2{
+    text-align:center;
+    font-size:3.8em;
+    color:red;
+    font-family:'Mochiy Pop P One', sans-serif;
+    margin-top:0;
+}
+
+#youtube iframe{
+    margin-left:20%;
+    margin-right:20%;
+    width:60%;
+}
+
+footer{
+    
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-size:2em;
+    text-align:center;
+    
+    color:black;
+    background-color:tomato;
+    height:5em;
+    width:100%;
+}
+
+p.p{
+    margin:0;
+    color:inherit;
+    text-align:inherit;
+    font-family:inherit;
+    font-size:inherit;
+    padding-top:5%;
+}
+
+p.p a{
+    
+    
+    text-decoration:none;
+    color:white;
+}
+
+
+
+
